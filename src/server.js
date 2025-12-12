@@ -26,6 +26,6 @@ app.get("/", (rez,res) => {
 /* sirve para comprobar que express esta funcionando y el servidor responde si voy a host 4000 me deveria salir el mensaje API funcionando*/
 
 app.listen(process.env.PORT,() => {
-console.log("Servidor en puerto"+ process.env.PORT); // levanta el servidor en un puerto - PORT = 4000 puerto
+console.log("Servidor en puerto"+ process.env.PORT); // levanta el servidor en un puerto - PORT = 4000 puerto // ññppwdfawf
 });
 
